@@ -36,7 +36,7 @@ print("Умножение произведение элементов на ук�
 count = 0
 n = 1
 for i in range(1, number, 2):
-    print(f"{n}. Позиция(индексы) из file.txt {num_list[count]}", end=" ")
+    print(f"{n}. Позиция(индексы) из {filename} {num_list[count]}", end=" ")
     print(f"{num_list[count + 1]} --> ", end=' ')
     print(f"{listNum[num_list[count]]} * {listNum[num_list[count+1]]} = ", end='')
     print(f"{listNum[num_list[count]] * listNum[num_list[count+1]]}")
